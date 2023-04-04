@@ -1,9 +1,8 @@
 {
-    "homepage":"http://iamsanthosh2203.github.io/typerrr",
+    "homepage": "http://iamsanthosh2203.github.io/typerrr",
     "name": "typing-test",
     "version": "0.1.0",
     "private": true,
-    "homepage": ".",
     "dependencies": {
         "@testing-library/jest-dom": "^5.16.1",
         "@testing-library/react": "^12.1.2",
@@ -26,8 +25,8 @@
     },
     "scripts": {
         "start": "react-scripts start",
-        "predepoly":"npm run build",
-        "deploy":"gh-pages -d build",
+        "predepoly": "npm run build",
+        "deploy": "gh-pages -d build",
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
